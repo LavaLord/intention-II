@@ -1,5 +1,5 @@
 function setup() { 
-    createCanvas(1000, 600); 
+    createCanvas(windowWidth, windowHeight); 
     background(51); //TODO@lavalord changed the background color
 
 }
