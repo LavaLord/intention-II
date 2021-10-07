@@ -9,3 +9,7 @@ function draw() {
   let c = color(mouseX*2, mouseY/6, Math.floor(Math.random() * 777)) 
   fill(c)
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }
